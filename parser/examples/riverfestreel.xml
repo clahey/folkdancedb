@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="dance.css"?>
+<dance>
+    <author>Chris Lahey &amp; Kiran Wagle</author>
+    <dancetype>contra</dancetype>
+    <title>Riverfest Reel</title>
+    <formation>di</formation>
+    <sequence>
+      <circle direction="L"/>
+      <star direction="R"/>
+      <star direction="L"/>
+      <circle direction="R"/>
+      <bal formation="ring"/>
+      <sw target="N"/>
+      <ll/>
+      <sw target="1s"/>
+    </sequence>
+</dance>

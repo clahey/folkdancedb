@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="dance.css"?>
+<dance>
+    <author>Chris Lahey</author>
+    <dancetype>contra</dancetype>
+    <title>Whirlwind #4</title>
+    <formation>bcw</formation>
+    <sequence>
+      <circle distance="3"/>
+      <passthru/>
+      <sw target="new N"/>
+      <chain/>
+      <star direction="L"/>
+      <star who="nxt 4some" direction="R" distance="2"/>
+      <star who="nxt nxt 4some" direction="L" count="4"/>
+      <star who="nxt 4some" direction="R" distance="2" note="original nxt 4some"/>
+      <balsw target="P"/>
+    </sequence>
+</dance>

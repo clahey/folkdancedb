@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="dance.css"?>
+<dance>
+    <author>Chris Lahey</author>
+    <dancetype>contra</dancetype>
+    <title>Gillian's Progression</title>
+    <formation>di</formation>
+    <sequence>
+      <star direction="L"/>
+      <ala target="N" distance="1.5" direction="L"/>
+      <ala target="W" distance="1" direction="R"/>
+      <sw target="N"/>
+      <circle distance="3"/>
+      <sw target="P"/>
+      <hey crossings="ML, NR, WL, PR"/>
+      <pass shoulder="L" target="M"/>
+      <ala target="N" distance=".75" direction="R"/>
+    </sequence>
+</dance>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="dance.css"?>
+<dance>
+    <author>Chris Lahey</author>
+    <dancetype>contra</dancetype>
+    <title>Lunar Mix-up</title>
+    <formation>scatter mixer</formation>
+    <sequence>
+      <circle direction="L"/>
+      <star direction="R" note="hands across"/>
+      <lchain/>
+      <while>
+	<ala target="W" distance="1.5" direction="R"/>
+	<orbit target="M" distance=".5" direction="R"/>
+      </while>
+      <balsw target="new P"/>
+      <prom target="new P" note="randomly to find new foursome" count="16"/>
+    </sequence>
+</dance>
