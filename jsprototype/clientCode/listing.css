@@ -1,0 +1,13 @@
+li { margin: 5px; padding: 5px; }
+
+
+.list { list-style-type: none; overflow: auto; height: 100%; width: 100%; margin: 0; padding: 0; border: 0 }
+.list-container { display: block; height: 100%; width: 50%; margin: 0; padding: 0; border: 0; position: absolute; top: 0; bottom: 0 }
+#available-container { left: 0; }
+#evening-container { right: 0; }
+#evening-trash { position: absolute; bottom: 0; left: 0; }
+#evening-trash-box { position: absolute; bottom: 0; left: 0; }
+#evening-trash-icon { margin-left: auto; margin-right: auto}
+#evening-trash-icon-container { display: table-cell; vertical-align: middle; }
+.trash-drop-size { width: 100px; height: 100px; }
+.button { padding: .4em 1em .4em 20px; text-decoration: none; }

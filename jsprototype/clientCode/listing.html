@@ -1,0 +1,32 @@
+<html>
+  <head>
+  <title>Demo</title>
+  <link rel="stylesheet" type="text/css" href="jquery/css/humanity/jquery-ui-1.8.18.custom.css" />
+  <link rel="stylesheet" type="text/css" href="listing.css" />
+  </head>
+  <body>
+  <script type="text/javascript" src="jquery/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="jquery/js/jquery-ui-1.8.18.custom.min.js"></script>
+  <script type="text/javascript" src="loadList.js"></script>
+    <div id="available-container" class="list-container">
+      <ul id="available" class="ui-state-active list"></ul>
+    </div>
+    <div id="evening-container" class="list-container">
+      <div style="padding: 1em;">
+	<span>
+	  <a href="#" id="new-evening" class="ui-state-default ui-corner-all button">New Evening</a>
+	  <a href="#" id="load-evening" class="ui-state-default ui-corner-all button">Load Evening...</a>
+	  <a href="#" id="save-evening" class="ui-state-default ui-corner-all button">Save Evening...</a>
+      </span>
+      </div>
+      <ul id="evening" class="ui-state-active list"></ul>
+      <div id="evening-trash" class="trash-drop-size">
+        <div class="ui-state-default ui-corner-all" id="evening-trash-box">
+          <div id="evening-trash-icon-container">
+            <span class="ui-icon ui-icon-trash" id="evening-trash-icon"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
